@@ -1,0 +1,12 @@
+package pages
+
+import "github.com/ruhollahh/go-lazy-web-components/web/views/layouts"
+
+templ Home() {
+	@layouts.DefaultLayout("Go lazy web components") {
+		<button hx-get="/show-random-lazy-comp" hx-trigger="click" hx-target="#lazy-comp">
+			click
+		</button>
+		<div id="lazy-comp"></div>
+	}
+}
