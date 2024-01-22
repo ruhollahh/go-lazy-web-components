@@ -9,7 +9,7 @@ lerna-debug.log*
 
 tls/
 /tmp
-/web/views/*.go
+/web/views/**/*.go
 /.idea
 node_modules/
 dist/
